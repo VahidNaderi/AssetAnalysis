@@ -5,8 +5,5 @@ class AssetRate:
         self.rate = rate
         self.rate_change = rate_change
 
-today_asset_rate = AssetRate(year=1403, month=2, rate=620000, rate_change=None)
-
-
-dollar_rates = []
-for rate
+    def __str__(self):
+        return f"Year:{self.year}, Month:{self.month}, Rate:{self.rate}, Change:{self.rate_change}%"
